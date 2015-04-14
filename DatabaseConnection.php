@@ -9,13 +9,6 @@ class DatabaseConnection{
 	private $user = 'usuario';
 	private $password = 'senha';
 	
-	function __construct($server,$user, $password,$db) {
-   		$this->server = $server;
-		$this->user = $user;
-		$this->password = $password;
-		$this->db = $db;
-	}
-	
 	function __construct() {
 		//Usar definiçoes padrão.
 	}
